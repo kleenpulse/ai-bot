@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codex - Your coding AI</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      /* Safari */
+      animation: spin 2s linear infinite;
+    }
+
+
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    </style>
+    <div class="loader"></div>
+    <div id="chat_container"></div>
+    <form action="">
+      <div class="textarea-con">
+
+        <textarea class="textarea" name="prompt" cols="1" rows="1" placeholder="Ask Codex..." autofocus></textarea>
+        <button type="submit"><img src="assets/send.svg"> </button>
+      </div>
+    </form>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
