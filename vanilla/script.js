@@ -31,7 +31,6 @@ function typeText(e, text) {
   }, 30);
 }
 
-
 function generateId() {
   const timestamp = Date.now()
   const randomNumber = Math.random()
